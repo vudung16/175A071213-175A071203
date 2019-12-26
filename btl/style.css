@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+}
+/*=====================main===========*/
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    background: blue;
+    color: white;
+    
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: red;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+li .home{
+    font-size: 25px;
+    background-color: #fff;
+    padding: 2px 10px 4px ;
+}
+.navbar-collapse .dropdown-menu{
+    padding: 0 0 0 0;
+}
+.dropdown-menu a{
+    background: blue;
+    color: #fff;
+}
+#navbarDropdown {
+    color: #fff;
+}
+.navbar-collapse {
+    background-color: blue;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    flex-shrink: 0;
+    width: 100%;
+    height: 150px;
+}
+ol, ul {
+    list-style: inherit;
+    padding-left: 25px;
+}
+/*================footer===================*/
+
+.page-footer .wrapper {
+	background: blue;
+	padding-top: 25px;
+}
+
+.footer-col {
+	width: 25%;
+    float: left;
+}
+
+.page-footer h3 {
+	font-size: 13px;
+    text-transform: uppercase;
+    color: rgb(197, 255, 60);
+}
+.page-footer h3::after {
+	content: '.';
+	font-size: 0;
+	width: 90%;
+	height: 1px;
+	background: #000;
+	display: block;
+	margin: 15px 0;
+}
+.page-footer>.wrapper::after{
+    content: '.';
+    font-size: 0;
+    height: 1px;
+    width: 100%;
+    display: block;
+    clear: both;
+}
+.wrapper{
+    width: 1110px;
+    height: 100%;
+    margin: 0 auto;
+}
+.page-footer li {
+	font-size: 13px;
+	color: #fff;
+    line-height: 1.6;
+}
+.page-footer li:hover {
+	color: #fff;
+    cursor: pointer;
+}
+.copy {
+	color: #fff;
+	margin-top: 32px;
+}
+
+.social a {
+	display: block;
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.social a:hover {
+	background: #fff;
+	color: #ff0000;
+}
+.social li {
+	display: inline-block;
+}
+
+
+
+@media only screen and (max-width: 992px){
+.footer-col{
+    width: 100%;
+}
+}
+
