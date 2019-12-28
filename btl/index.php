@@ -10,27 +10,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand">
-                    <img src="images/logo.png" width="450px" alt="">
-                </a>
-                <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Đăng nhập</button>
-                <button type="submit
-                " class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">(+) Đăng ký</button>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="Search" placeholder="Tìm kiếm..." aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </nav>
-        </div>
-    </header>
         <?php
-        include 'menu.php';
-        include 'news.php';
-        include 'footer.php';
-        include 'loginbootraps.php'
+        require 'header.php';
+        require 'menu.php';
+        require 'news.php';
+        require 'footer.php';
+        require 'loginbootraps.php'
         ?>
     
 
