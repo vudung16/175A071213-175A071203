@@ -16,35 +16,17 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown">TUYỂN SINH</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Đại học, cao đẳng</a>
-                                <a class="dropdown-item" href="#">Thạc sĩ, tiến sĩ</a>
-                                <a class="dropdown-item" href="#">Văn bằng 2</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#" id="navbarDropdown">SINH VIÊN</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#tradiem">Xem điểm cá nhân</a>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Đăng ký học</a>
                                 <a class="dropdown-item" href="#">Thông tin sinh viên</a>
                             </div>
                         </li> 
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" id="navbarDropdown">GIẢNG VIÊN</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Lịch giảng dạy</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Quản lý điểm môn học</a>
                                 <a class="dropdown-item" href="#">Thông tin giảng viên</a>
-                            </div>
-                        </li> 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown">
-                                KHOA HỌC CÔNG NGHỆ
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Tin tức</a>
-                            <a class="dropdown-item" href="#">Thông báo</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -52,8 +34,8 @@
                                 QUẢN LÝ ĐĂNG NHẬP
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Tin tức</a>
-                                <a class="dropdown-item" href="#">Thông báo</a>
+                                <a class="dropdown-item" href="#"></a>
+                                <a class="dropdown-item" href="#"></a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -61,8 +43,8 @@
                                 QUẢN TRỊ ĐĂNG NHẬP
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Tin tức</a>
-                                <a class="dropdown-item" href="#">Thông báo</a>
+                                <a class="dropdown-item" href="#"></a>
+                                <a class="dropdown-item" href="#"></a>
                             </div>
                         </li>     
                                  
